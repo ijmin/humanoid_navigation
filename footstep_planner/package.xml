@@ -31,6 +31,8 @@
   <depend>nav_msgs</depend>
   <depend>visualization_msgs</depend>
   <depend>humanoid_nav_msgs</depend>
+  <depend>robotis_controller_msgs</depend>
+  <depend>robotis_framework_common</depend>
   <depend>tf</depend>
   <depend>angles</depend>
   <depend>gridmap_2d</depend>

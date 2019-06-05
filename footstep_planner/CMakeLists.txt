@@ -21,6 +21,9 @@ find_package(catkin REQUIRED COMPONENTS
   angles
   gridmap_2d
   map_server
+  robotis_controller_msgs
+  alice_operation_msgs
+  alice_online_walking_module
 )
 
 find_package(OpenCV REQUIRED)

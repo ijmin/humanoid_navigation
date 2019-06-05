@@ -42,6 +42,10 @@
 #include <XmlRpcValue.h>
 #include <XmlRpcException.h>
 
+//
+#include "alice_foot_step_generator/Step2D.h"
+#include "alice_foot_step_generator/Step2DArray.h"
+
 #include <assert.h>
 #include <time.h>
 
@@ -289,6 +293,11 @@ protected:
   ros::Publisher  ivStartPoseVisPub;
   ros::ServiceServer ivFootstepPlanService;
   ros::ServiceServer ivFootstepPlanFeetService;
+
+  // add
+  ros::Publisher footsteps_2d_pub;
+  //step 2D array
+
 
   double ivFootSeparation;
   double ivMaxStepWidth;
